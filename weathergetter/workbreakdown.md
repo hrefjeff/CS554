@@ -6,7 +6,7 @@ The entire team participated in researching and deploying every aspect of this a
 ### Maria - Javascript, CSS
 
 ## Backend
-### Lynn - Lambda
+### Lynn - API Gateway
 ### Maria - API Gateway, Lambda
 ### Jeffrey - Lambda, IAM
 
