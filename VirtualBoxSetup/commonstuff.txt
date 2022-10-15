@@ -1,8 +1,0 @@
-Enable OpenSSH Server on Windows
-in admin powershell terminal: Get-WindowsCapability -Online | ? Name -like 'OpenSSH.Ser*'
-in admin powershell terminal: Set-Service -Name sshd -StartupType 'Automatic' <--- automatically starts sshd at StartupType
-
-Mount windows folder to VirtualBox running linux
-Next on the the guset OS make a directory to use for your mount preferably in your home directory.
-mkdir <sharedfoldername>
-in linux VM: sudo mount -t vboxsf <foldernameinVB> ~/<sharedfoldername>/
