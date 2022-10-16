@@ -15,5 +15,5 @@ in admin powershell terminal: Set-Service -Name sshd -StartupType 'Automatic' <-
 ## Guest Linux OS
 
 Next on the the guset OS make a directory to use for your mount preferably in your home directory.
-1. mkdir <sharedfoldername>
-2. in linux VM: sudo mount -t vboxsf <vboxfoldername> <sharedfoldername>
+1. mkdir {sharedfoldername}
+2. in linux VM: sudo mount -t vboxsf {vboxfoldername} {sharedfoldername}
