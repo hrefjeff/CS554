@@ -11,6 +11,7 @@ in admin powershell terminal: Set-Service -Name sshd -StartupType 'Automatic' <-
 2. Click shared folders
 3. Transient = just for session, machine = forever
 4. add folder <vboxfoldername>
+5. Add mount point = /
 
 ## Guest Linux OS
 
